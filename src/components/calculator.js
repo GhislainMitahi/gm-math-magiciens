@@ -1,6 +1,5 @@
 /* eslint-disable import/extensions */
 import React, { Component } from 'react';
-// import calculate from '../logic/calculate.js';
 
 class Calculator extends Component {
   constructor(props) {
@@ -11,13 +10,6 @@ class Calculator extends Component {
       operation: null,
     };
     this.clickHandle = this.clickHandle.bind(this);
-  }
-
-  clickHandle() {
-    this.setState((state) => ({
-      ...state,
-      // ...calculate(state, e.target.name),
-    }));
   }
 
   render() {
