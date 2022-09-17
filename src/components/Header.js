@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './style.css';
 
 const Header = () => {
   const data = [
@@ -21,16 +20,16 @@ const Header = () => {
     },
   ];
   return (
-    <header className='header'>
-      <span className='span'>Math magician</span>
-      <ul className='list'>
+    <header className="header">
+      <span className="span">Math magician</span>
+      <ul className="list">
         {data.map(({ id, name, url }) => (
           <NavLink key={id} to={url}>
             <li>{name}</li>
           </NavLink>
         ))}
       </ul>
-      <span className='hidden menu'>Menu</span>
+      <span className="hidden menu">Menu</span>
     </header>
   );
 };
