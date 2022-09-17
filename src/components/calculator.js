@@ -1,10 +1,7 @@
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable import/extensions */
 import React, { Component } from 'react';
 
 class Calculator extends Component {
-  // eslint-disable-next-line no-useless-constructor
-  constructor(props) {
+  Constructor(props) {
     super(props);
   }
 
