@@ -32,6 +32,8 @@ If you want to use this project locally on your device you will need the followi
   in your terminal
 
   To get actions run ```npm install```
+  
+  To get run in the brows ```npm start```
 
 
 
