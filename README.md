@@ -6,6 +6,8 @@ This project is about to give us a handle as a student on how to make interactiv
 
 ## Live demo
 
+[Netltfy Hosting](https://microverse-gm-math-magician.netlify.app/)
+
 ## Built With
 
 - React js
